@@ -1,0 +1,35 @@
+{
+  "name": "koa05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production NODE_PATH=. node .",
+    "dev": "NODE_ENV=development NODE_PATH=. nodemon  .",
+    "test": "NODE_ENV=test NODE_PATH=. mocha",
+    "lint": "eslint ."
+  },
+  "author": "snayps",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^1.29.4",
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-logger": "^3.1.0",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.5",
+    "mongoose": "^4.13.10",
+    "mongoose-beautiful-unique-validation": "^7.0.0",
+    "sinon-chai": "^2.14.0",
+    "validator": "^9.4.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "mocha": "^5.0.0",
+    "sinon": "^4.2.2",
+    "supertest": "^3.0.0"
+  }
+}

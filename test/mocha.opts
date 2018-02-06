@@ -1,0 +1,4 @@
+test/**/*.spec.js
+--reporter spec
+--timeout 5000
+--require ./test/setup
